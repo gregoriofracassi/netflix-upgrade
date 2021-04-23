@@ -24,6 +24,7 @@ body {
 .movie-row {
   margin-top: 20px;
   margin-bottom: 50px;
+  width: 100%;
 }
 .movie-cover {
   width: 99%;

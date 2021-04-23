@@ -43,13 +43,13 @@ const createRows = async () => {
         contDiv = document.createElement('div')
         contDiv.classList.add('row')
         contDiv.innerHTML = `
-        <div class="movie-gallery m-2">
+        <div class="movie-gallery m-2 col-12">
           <h5 class="text-light mt-2 mb-2">${cat}</h5>
-          <div id="trending-now" class="carousel slide" data-bs-ride="carousel">
+          <div id="trending-now" class="carousel slide w-100" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="movie-row">
-                  <div class="row movies-row">
+                  <div class="row movies-row col-12">
                   </div>
                 </div>
               </div>
@@ -87,7 +87,7 @@ const createRows = async () => {
         const last6Movies = movies.length > 6 ? movies.slice(-6) : movies
         moviesRows[i].innerHTML = last6Movies.map( mov => {
             return`
-            <a href="backoffice.html?id=${mov._id}" class="col-md-2">
+            <a href="backoffice.html?id=${mov._id}" class="col-2">
             <div>
               <img class="movie-cover" src="${mov.imageUrl}" />
             </div>
