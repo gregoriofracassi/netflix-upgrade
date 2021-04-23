@@ -1,0 +1,87 @@
+body {
+  background-color: #000;
+}
+
+#logo {
+  height: 68px;
+  width: 84;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#postnav-nav {
+  display: inline block;
+}
+
+.movie-row {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.movie-cover {
+  width: 99%;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+.movie-cover:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.carousel-control-next {
+  margin-right: -5%;
+  background: 0;
+  border: none;
+}
+
+.carousel-control-prev {
+  margin-left: -5%;
+  background: 0;
+  border: none;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.edit-icon {
+  position: relative;
+  left: 10%;
+  top: -10%;
+  background: black;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#kidsavatar {
+  height: 36px;
+  width: 36px;
+}
+
+#avatar {
+  height: 36x;
+  width: 36px;
+  background: none;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.75rem;
+  padding: 0.75rem;
+}
