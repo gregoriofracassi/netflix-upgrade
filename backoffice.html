@@ -102,10 +102,60 @@
       </div>
     </nav>
 
-    <div class="row-container container-fluid">
-      <!-- line of movies -->
-      <!-- end line of movies  -->
+    <!-- form start -->
+    <div class="container mb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-6">
+          <h3 class="text-white title">Upload a movie</h3>
+          <form class="mt-5 submit">
+            <!--Event Name-->
+            <label>Name</label>
+            <input
+              id="name"
+              type="text"
+              class="form-control"
+              placeholder="..."
+            />
+
+            <!--Event Description-->
+            <label>Description</label>
+            <input
+              id="description"
+              type="text"
+              class="form-control"
+              placeholder="..."
+            />
+
+            <label>Category</label>
+            <input
+              id="category"
+              type="text"
+              class="form-control"
+              placeholder="..."
+            />
+
+            <label>Image</label>
+            <input
+              id="imageUrl"
+              type="text"
+              class="form-control"
+              placeholder="..."
+            />
+
+            <div class="d-flex">
+              <input type="submit" class="btn btn-primary mt-4 mx-auto" />
+              <button
+                type="button"
+                class="btn delete btn-secondary mt-4 mx-auto"
+              >
+                Delete
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
+    <!-- form end -->
 
     <footer>
       <div class="container">
@@ -174,6 +224,7 @@
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="backoffice.js"></script>
   </body>
 </html>

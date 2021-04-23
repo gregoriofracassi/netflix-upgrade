@@ -28,7 +28,7 @@ body {
 .movie-cover {
   width: 99%;
   transition: 0.3s;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 .movie-cover:hover {
   opacity: 1;
